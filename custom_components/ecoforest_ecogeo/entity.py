@@ -65,7 +65,7 @@ class EcoforestEntity(CoordinatorEntity[EcoforestCoordinator]):
 
         id = f"{device_id}_{key}".lower()
         self._attr_unique_id = id
-        self.entity_id = f"sensor.{id}"
+#       self.entity_id = f"sensor.{id}"
 
         super().__init__(coordinator)
 
