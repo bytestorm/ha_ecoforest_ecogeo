@@ -113,11 +113,11 @@
       "power_output": {
         "name": "Total output power"
       },
-      "t_brine_in": {
-        "name": "Brine input temperature"
+      "t_brine_return": {
+        "name": "Brine Return"
       },
-      "t_brine_out": {
-        "name": "Brine output temperature"
+      "t_production_return": {
+        "name": "Production Return"
       },
       "p_brine": {
         "name": "Brine pressure"
@@ -128,8 +128,131 @@
       "cop": {
         "name": "COP"
       },
+      "eer": {
+        "name": "EER"
+      },
       "pf": {
         "name": "PF"
+      },
+      "t_cooling_setpoint": {
+        "name": "Cooling Tank setpoint"
+      },
+      "t_production_supply": {
+        "name": "Production Supply"
+      },
+      "t_brine_supply": {
+        "name": "Brine Supply"
+      },
+      "t_brine_delta": { "name": "Brine ΔT" },
+      "t_production_delta": { "name": "Production ΔT" },
+      "t_buffer_error": { "name": "Buffer setpoint error" },
+      "energy_electric_month": {
+        "name": "Electricity consumed (month)"
+      },
+      "energy_heating_month": {
+        "name": "Heating energy (month)"
+      },
+      "energy_cooling_month": {
+        "name": "Cooling energy (month)"
+      },
+      "energy_electric_day": {
+        "name": "Electricity consumed (today)"
+      },
+      "energy_heating_day": {
+        "name": "Heating energy (today)"
+      },
+      "energy_cooling_day": {
+        "name": "Cooling energy (today)"
+      },
+      "t_sg5": {
+        "name": "SG5 temperature"
+      },
+      "t_thermostat_1": {
+        "name": "Zone 1 thermostat temperature"
+      },
+      "t_thermostat_2": {
+        "name": "Zone 2 thermostat temperature"
+      },
+      "t_thermostat_3": {
+        "name": "Zone 3 thermostat temperature"
+      },
+      "t_thermostat_4": {
+        "name": "Zone 4 thermostat temperature"
+      },
+      "t_thermostat_5": {
+        "name": "Zone 5 thermostat temperature"
+      },
+      "regulation_zone_1": {
+        "name": "Zone 1 regulation"
+      },
+      "regulation_zone_2": {
+        "name": "Zone 2 regulation"
+      },
+      "regulation_zone_3": {
+        "name": "Zone 3 regulation"
+      },
+      "regulation_zone_4": {
+        "name": "Zone 4 regulation"
+      },
+      "regulation_zone_5": {
+        "name": "Zone 5 regulation"
+      },
+      "t_dg2_c": {
+        "name": "DG2 Cooling temperature"
+      },
+      "t_dg3_c": {
+        "name": "DG3 Cooling temperature"
+      },
+      "t_dg4_c": {
+        "name": "DG4 Cooling temperature"
+      },
+      "t_dg5_c": {
+        "name": "DG5 Cooling temperature"
+      },
+      "t_heating_setpoint": {
+        "name": "Heating Tank setpoint"
+      },
+      "t_heating_offset": {
+        "name": "Heating DT start"
+      },
+      "t_cooling_offset": {
+        "name": "Cooling DT start"
+      },
+      "t_stop_heating": {
+        "name": "Heating stop temperature"
+      },
+      "t_stop_cooling": {
+        "name": "Cooling start temperature"
+      },
+      "t_zone_setpoint_1": {
+        "name": "Zone 1 setpoint"
+      },
+      "t_zone_setpoint_2": {
+        "name": "Zone 2 setpoint"
+      },
+      "t_zone_setpoint_3": {
+        "name": "Zone 3 setpoint"
+      },
+      "t_zone_setpoint_4": {
+        "name": "Zone 4 setpoint"
+      },
+      "t_zone_setpoint_5": {
+        "name": "Zone 5 setpoint"
+      },
+      "t_zone_actual_1": {
+        "name": "Zone 1 temperature"
+      },
+      "t_zone_actual_2": {
+        "name": "Zone 2 temperature"
+      },
+      "t_zone_actual_3": {
+        "name": "Zone 3 temperature"
+      },
+      "t_zone_actual_4": {
+        "name": "Zone 4 temperature"
+      },
+      "t_zone_actual_5": {
+        "name": "Zone 5 temperature"
       }
     },
     "number": {
